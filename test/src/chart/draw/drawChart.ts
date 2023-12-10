@@ -10,7 +10,7 @@ import setZoom from "../event/setZoom";
 
 const useChart = () => {
   useEffect(() => {
-    const margin: TChartMargin = { top: 10, right: 30, bottom: 30, left: 60 };
+    const margin: TChartMargin = { top: 10, right: 50, bottom: 30, left: 50 };
     const width = 1200 - margin.left - margin.right;
     const height = 500 - margin.top - margin.bottom;
     const chartLayout: TChartLayout = {
